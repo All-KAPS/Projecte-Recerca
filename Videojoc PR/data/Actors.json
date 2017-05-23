@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"battlerName":"BattlePJ1","characterIndex":0,"characterName":"Walk","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"BattlePJ2","characterIndex":1,"characterName":"Walk","classId":2,"equips":[2,1,2,3,0],"faceIndex":1,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Therese","nickname":"","note":"","profile":""},
-{"id":3,"battlerName":"BattlePJ3","characterIndex":2,"characterName":"Walk","classId":3,"equips":[3,0,2,3,4],"faceIndex":2,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Marsha","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"BattlePJ4","characterIndex":3,"characterName":"Walk","classId":4,"equips":[4,0,2,3,4],"faceIndex":3,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lucius","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"BattlePJ1","characterIndex":0,"characterName":"Walk","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Kyran","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"BattlePJ2","characterIndex":1,"characterName":"Walk","classId":2,"equips":[2,1,2,3,0],"faceIndex":1,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Tayu","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"BattlePJ3","characterIndex":2,"characterName":"Walk","classId":3,"equips":[3,0,2,3,4],"faceIndex":2,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Himéria","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"BattlePJ4","characterIndex":3,"characterName":"Walk","classId":4,"equips":[4,0,2,3,4],"faceIndex":3,"faceName":"Face-Idle","traits":[],"initialLevel":1,"maxLevel":99,"name":"Biruberi","nickname":"","note":"","profile":""}
 ]
