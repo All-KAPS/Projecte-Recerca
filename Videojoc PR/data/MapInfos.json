@@ -1,8 +1,10 @@
 [
 null,
-{"id":1,"expanded":false,"name":"MAP001","order":2,"parentId":0,"scrollX":819,"scrollY":478},
-{"id":2,"expanded":false,"name":"Templo flotante","order":3,"parentId":0,"scrollX":811,"scrollY":699},
-{"id":3,"expanded":false,"name":"MAP003","order":4,"parentId":0,"scrollX":819,"scrollY":478},
-{"id":4,"expanded":false,"name":"Intro","order":1,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":5,"expanded":false,"name":"SOFIS","order":5,"parentId":0,"scrollX":819,"scrollY":478}
+null,
+null,
+{"id":3,"expanded":false,"name":"MAP003","order":2,"parentId":0,"scrollX":982.8,"scrollY":573.6},
+{"id":4,"expanded":false,"name":"Intro","order":1,"parentId":0,"scrollX":982.8,"scrollY":573.6},
+null,
+{"id":6,"expanded":true,"name":"Casa Inicio","order":4,"parentId":7,"scrollX":832,"scrollY":640},
+{"id":7,"expanded":true,"name":"Isla De inicio","order":3,"parentId":0,"scrollX":973.1999999999999,"scrollY":626.4}
 ]
