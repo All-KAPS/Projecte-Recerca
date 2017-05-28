@@ -25,20 +25,19 @@
 		this._statusWindow.x = 0;
 		this._statusWindow.y = this._commandWindow.height;
 
-		this._goldWindow.x = this._statusWindow.width;
-		this._goldWindow.y = this._commandWindow.height;
-		this._goldWindow.opacity = 0;
+		this._goldWindow.x = 0;
+		this._goldWindow.y = this._statusWindow.y + this._statusWindow.height;
 		};
 
 	// ----------------------
 	// MENU STATUS
 	//-----------------------
 	Window_MenuStatus.prototype.windowWidth = function() {
-	    return Graphics.boxWidth - 240;
+	    return Graphics.boxWidth;
 	};
 
 	Window_MenuStatus.prototype.windowHeight = function() {
-	    return Graphics.boxHeight / 2;
+	    return Graphics.boxHeight - this.fittingHeight(4);
 	};
 
 	Window_MenuStatus.prototype.numVisibleRows = function() {
@@ -69,4 +68,11 @@
 	    return 4;
 	};
 
+	// ----------------------
+	// MENU GOLD
+	//-----------------------
+
+	Window_Gold.prototype.windowWidth = function() {
+    return Graphics.width;
+};
 })();
