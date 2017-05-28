@@ -72,7 +72,9 @@
 	// MENU GOLD
 	//-----------------------
 
-	Window_Gold.prototype.windowWidth = function() {
-    return Graphics.width;
-};
+	//ToDo: Create new window with Gold, so it doesn't overlap.
+
+	//Window_Gold.prototype.windowWidth = function() {
+    //return Graphics.width;
+	//};
 })();
