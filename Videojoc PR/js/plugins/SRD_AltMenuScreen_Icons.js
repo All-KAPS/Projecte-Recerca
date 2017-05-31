@@ -427,6 +427,7 @@ Imported["SumRndmDde AMS Icons"] = 1.00;
 	    this.addWindow(this._commandLabel);
 	    this._commandWindow.x = eval(_x);
 	    this._commandWindow.y = eval(_y);
+	    this._commandWindow.opacity = 0;
 	    this._commandLabel.x = eval(_labelX);
 	    this._commandLabel.y = eval(_labelY);
 	    this._statusWindow.x = eval(_actorX);
@@ -466,7 +467,7 @@ Imported["SumRndmDde AMS Icons"] = 1.00;
 	    	(this.standardPadding() * 2)) - (this.textPadding() * 2);
 	};
 	Window_MenuCommand.prototype.windowHeight = function() {
-	    return this.itemHeight() + (this.standardPadding() * 2);
+	    return (this.itemHeight() * 2) + (this.standardPadding() * 2);
 	};
 	Window_MenuCommand.prototype.standardPadding = function() {
 	    return _stand;
