@@ -1,4 +1,10 @@
+UPDATE
+- He hecho la animación/evento ese.
+- Ponemos la nota en casa de Kyran o como lo hacemos?
+- Me faltan los textos (hay q redactarlos bien para que sean los finales):
 [TEXT_INTRO_1]
 [TEXT_INTRO_2]
 [TEXT_CASA_INICIO]
 NOTA?
+[EVENT_DED_ROAR_BESTIA]
+[EVENT_DED_KYRANSAD]
