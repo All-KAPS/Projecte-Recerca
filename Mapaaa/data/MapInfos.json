@@ -1,14 +1,17 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Isla De inicio","order":1,"parentId":0,"scrollX":1084,"scrollY":650},
-{"id":2,"expanded":false,"name":"Casa Inicio","order":2,"parentId":1,"scrollX":722.6666666666666,"scrollY":433.3333333333333},
-{"id":3,"expanded":true,"name":"Ruta 10","order":3,"parentId":0,"scrollX":1084,"scrollY":650},
-{"id":4,"expanded":true,"name":"Ruta 11","order":4,"parentId":0,"scrollX":1084,"scrollY":650},
-{"id":5,"expanded":true,"name":"Bosque_1","order":5,"parentId":0,"scrollX":1524,"scrollY":1114},
-{"id":6,"expanded":true,"name":"Pueblo","order":6,"parentId":0,"scrollX":1084,"scrollY":650},
-{"id":7,"expanded":true,"name":"INN","order":7,"parentId":6,"scrollX":1080,"scrollY":646},
-{"id":8,"expanded":false,"name":"Armas","order":8,"parentId":6,"scrollX":722.6666666666666,"scrollY":433.3333333333333},
-{"id":9,"expanded":false,"name":"Objetos","order":9,"parentId":6,"scrollX":1084,"scrollY":650},
-{"id":10,"expanded":true,"name":"PuebloArriba","order":10,"parentId":0,"scrollX":1084,"scrollY":650},
-{"id":11,"expanded":false,"name":"PuebloIzquierda","order":11,"parentId":0,"scrollX":1084,"scrollY":650}
+{"id":1,"expanded":true,"name":"Isla De inicio","order":1,"parentId":0,"scrollX":642,"scrollY":844},
+{"id":2,"expanded":false,"name":"Casa Inicio","order":2,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":3,"expanded":true,"name":"Ruta 10","order":4,"parentId":0,"scrollX":1182.5454545454545,"scrollY":709.0909090909091},
+{"id":4,"expanded":true,"name":"Ruta 11","order":5,"parentId":0,"scrollX":801,"scrollY":616.5},
+{"id":5,"expanded":true,"name":"Bosque_1","order":6,"parentId":0,"scrollX":1676.5714285714284,"scrollY":1417.7142857142856},
+{"id":6,"expanded":true,"name":"Pueblo","order":7,"parentId":0,"scrollX":929.1428571428571,"scrollY":557.1428571428571},
+{"id":7,"expanded":true,"name":"INN","order":8,"parentId":6,"scrollX":2365.090909090909,"scrollY":1418.1818181818182},
+{"id":8,"expanded":false,"name":"Armas","order":9,"parentId":6,"scrollX":813,"scrollY":487.5},
+{"id":9,"expanded":false,"name":"Objetos","order":10,"parentId":6,"scrollX":1178.1818181818182,"scrollY":704.7272727272727},
+{"id":10,"expanded":true,"name":"PuebloArribaIzq","order":11,"parentId":6,"scrollX":813,"scrollY":487.5},
+{"id":11,"expanded":false,"name":"PuebloIzquierda","order":12,"parentId":6,"scrollX":801,"scrollY":487.5},
+{"id":12,"expanded":false,"name":"PuebloArribaDer","order":13,"parentId":6,"scrollX":915,"scrollY":475.5},
+{"id":13,"expanded":true,"name":"Entrenamiento","order":3,"parentId":1,"scrollX":666,"scrollY":317},
+{"id":14,"expanded":false,"name":"Intro","order":14,"parentId":0,"scrollX":542,"scrollY":325}
 ]
