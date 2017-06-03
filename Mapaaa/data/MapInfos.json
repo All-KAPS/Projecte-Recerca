@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":true,"name":"Isla De inicio","order":1,"parentId":0,"scrollX":720.8888888888889,"scrollY":637.3333333333334},
 {"id":2,"expanded":false,"name":"Casa Inicio","order":2,"parentId":1,"scrollX":728,"scrollY":424.8888888888889},
-{"id":3,"expanded":true,"name":"Ruta 10","order":4,"parentId":0,"scrollX":720.8888888888889,"scrollY":775.1111111111111},
+{"id":3,"expanded":true,"name":"Ruta 10","order":4,"parentId":0,"scrollX":712,"scrollY":766.6666666666666},
 {"id":4,"expanded":true,"name":"Ruta 11","order":5,"parentId":0,"scrollX":720.8888888888889,"scrollY":679.1111111111111},
 {"id":5,"expanded":true,"name":"Bosque_1","order":6,"parentId":0,"scrollX":1353.7777777777778,"scrollY":1153.7777777777778},
 {"id":6,"expanded":false,"name":"Pueblo","order":8,"parentId":0,"scrollX":911.1111111111111,"scrollY":686.2222222222222},
