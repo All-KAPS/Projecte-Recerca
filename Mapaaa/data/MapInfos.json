@@ -1,19 +1,19 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Isla De inicio","order":1,"parentId":0,"scrollX":720.8888888888889,"scrollY":637.3333333333334},
-{"id":2,"expanded":false,"name":"Casa Inicio","order":2,"parentId":1,"scrollX":728,"scrollY":424.8888888888889},
-{"id":3,"expanded":true,"name":"Ruta 10","order":4,"parentId":0,"scrollX":712,"scrollY":766.6666666666666},
-{"id":4,"expanded":true,"name":"Ruta 11","order":5,"parentId":0,"scrollX":720.8888888888889,"scrollY":679.1111111111111},
+{"id":1,"expanded":true,"name":"Isla De inicio","order":1,"parentId":0,"scrollX":720.8888888888889,"scrollY":640},
+{"id":2,"expanded":false,"name":"Casa Inicio","order":2,"parentId":1,"scrollX":728,"scrollY":422.22222222222223},
+{"id":3,"expanded":true,"name":"Ruta 10","order":4,"parentId":0,"scrollX":720.8888888888889,"scrollY":777.7777777777778},
+{"id":4,"expanded":true,"name":"Ruta 11","order":5,"parentId":0,"scrollX":720.8888888888889,"scrollY":681.7777777777778},
 {"id":5,"expanded":true,"name":"Bosque_1","order":6,"parentId":0,"scrollX":1353.7777777777778,"scrollY":1153.7777777777778},
-{"id":6,"expanded":false,"name":"Pueblo","order":8,"parentId":0,"scrollX":911.1111111111111,"scrollY":686.2222222222222},
+{"id":6,"expanded":false,"name":"Pueblo","order":8,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":7,"expanded":true,"name":"INN","order":9,"parentId":6,"scrollX":819,"scrollY":478},
 {"id":8,"expanded":false,"name":"Armas","order":10,"parentId":6,"scrollX":832,"scrollY":640},
 {"id":9,"expanded":false,"name":"Objetos","order":11,"parentId":6,"scrollX":819,"scrollY":478},
 {"id":10,"expanded":true,"name":"PuebloArribaIzq","order":12,"parentId":6,"scrollX":819,"scrollY":478},
 {"id":11,"expanded":false,"name":"PuebloIzquierda","order":13,"parentId":6,"scrollX":811,"scrollY":624},
 {"id":12,"expanded":false,"name":"PuebloArribaDer","order":14,"parentId":6,"scrollX":1228.5,"scrollY":717},
-{"id":13,"expanded":true,"name":"Entrenamiento","order":3,"parentId":1,"scrollX":720.8888888888889,"scrollY":424.8888888888889},
-{"id":14,"expanded":true,"name":"Intro","order":15,"parentId":0,"scrollX":728,"scrollY":424.8888888888889},
-{"id":15,"expanded":false,"name":"Intro-1","order":16,"parentId":14,"scrollX":720.8888888888889,"scrollY":535.1111111111111},
-{"id":16,"expanded":true,"name":"Bosque_1-Event","order":7,"parentId":5,"scrollX":1475.5555555555557,"scrollY":881.7777777777778}
+{"id":13,"expanded":true,"name":"Entrenamiento","order":3,"parentId":1,"scrollX":720.8888888888889,"scrollY":537.7777777777778},
+{"id":14,"expanded":true,"name":"Intro","order":15,"parentId":0,"scrollX":728,"scrollY":422.22222222222223},
+{"id":15,"expanded":false,"name":"Intro-1","order":16,"parentId":14,"scrollX":832,"scrollY":640},
+{"id":16,"expanded":true,"name":"Bosque_1-Event","order":7,"parentId":5,"scrollX":1468.4444444444443,"scrollY":1087.111111111111}
 ]
