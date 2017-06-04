@@ -1,29 +1,183 @@
-UPDATE
-- 	He hecho la animación/evento ese.
-	Haré como una explicación de cómo se ha hecho ese evento en un Word. Ya lo añadiremos a la ME.
-
-- 	Ponemos la nota en casa de Kyran o como lo hacemos?
-
-- 	Me faltan los textos (hay q redactarlos bien para que sean los finales):
-	[TEXT_INTRO_1] (Intro fondo estrellas)
+	[TEXT_INTRO_1] 	Había una vez... un niño llamado Kyran.
+					Kyran era un enamorado a la lectura. Le encantaban los
+					cuentos y las historias que le contaba su abuelo.
 	[TEXT_INTRO_2] (Intro Abu y Kyran 'luchando')
 	[TEXT_CASA_INICIO] (Donde está el abuelo)
 	[NOTA]???? (estoy comprando tabaco)
 	[EVENT_DED_ROAR_BESTIA]? (RWAAAAAR)
 	[EVENT_DED_KYRANSAD] (Kyran ve a su abu muerto y dice ...)
+	[NO_PUEDO_PASAARL]
+	[YA_PUEDO_LUCHARRL]
+	[A SWORD WOW]
+	[U GOT A SWORD]
 
--	KEVIN (esto hay q tenerlo hecho para el 12/06 +o-): tienes q explicar en un  word o algo como has hecho todo lo q has hecho. Así por encima. Ejemplo:
-		Batalla:
-			Objectiu: que es produeixi aixó (FOTOS si eso plz. o pon [FOTO_MENU] y ya lo pondremos ;) ).
-			Plugins utilitzats: YEP_125812312. (si puedes poner la pag de Yanfly y eso)
-		Menu:
-			ETC
--	KEVIN 2: Se puede caminar por encima de los arboles con flor :/. Se pone el personaje encima... O quitamos las flores o hacemos que no se pueda 		caminar por encima de las flores o nuse xD. 
+============================================================================
+Introduction
+============================================================================
 
--	SOFIA: continua con lo de la ME. 
+While RPG Maker MV Ace certainly improved the message system a whole lot, it
+wouldn't hurt to add in a few more features, such as name windows,
+converting textcodes to write out the icons and/or names of items, weapons,
+armours, and* more in quicker fashion. This script also gives the developer
+the ability to adjust the size of the message window during the game, give
+it a separate font, and to give the player a text fast-forward feature.
 
--	ARNAU: No se que decirte que hagas xD
+============================================================================
+Word Wrapping
+============================================================================
 
--	SOFIA & ARNAU: Si eso hacer la justificacion de el xq hacemos el videojuego en Español (más publico). TMB si podéis hacer algo de los textos.
+Word wrapping is now possible through the message system. You can enable and
+disable Word wrap using Plugin Commands. While using word wrap, if the word
+is to extend past the message window's area, it will automatically go to the
+following line. That said, word wrap will disable the editor's line breaks
+and will require you to use the ones provided by the plugin:
 
--	POL: Sabado no haré nada (FIRST :/) y  el domingo intentaré hacer lo de que hay una bestia en la Ruta 10 y no puede pasar y eso.
+<br> or <line break> is text code to apply a line break. Use this before or
+after a part in which you wish to start a new line.
+
+Keep in mind word wrapping is mostly for message windows. However, in other
+places that you'd like to see word wrapping, such as item descriptions,
+insert <WordWrap> at the beginning of the text to enable it.
+
+============================================================================
+Text Codes
+============================================================================
+
+By using certain text codes in your messages, you can have the game replace
+them with the following:
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Text Code   Function
+  \V[n]       Replaced by the value of the nth variable.
+  \N[n]       Replaced by the name of the nth actor.
+  \P[n]       Replaced by the name of the nth party member.
+  \G          Replaced by the currency unit.
+  \C[n]       Draw the subsequent text in the nth color.
+  \I[n]       Draw the nth icon.
+  \{          Increases the text size by one step.
+  \}          Decreases the text size by one step.
+  \\          Replaced with the backslash character.
+  \$          Opens the gold window.
+  \.          Waits 1/4th seconds.
+  \|          Waits 1 second.
+  \!          Waits for button input.
+  \>          Display remaining text on same line all at once.
+  \<          Cancel the effect that displays text all at once.
+  \^          Do not wait for input after displaying text.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Wait:       Effect:
+   \w[x]     - Waits x frames (60 frames = 1 second). Message window only.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ NameWindow: Effect:
+   \n<x>     - Creates a name box with x string. Left side. *Note
+   \nc<x>    - Creates a name box with x string. Centered. *Note
+   \nr<x>    - Creates a name box with x string. Right side. *Note
+
+             *Note: Works for message window only.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Line Break  Effect:
+   <br>      - If using word wrap mode, this will cause a line break.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Position:   Effect:
+   \px[x]    - Sets x position of text to x.
+   \py[x]    - Sets y position of text to y.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Outline:    Effect:
+  \oc[x]    - Sets outline colour to x.
+  \ow[x]    - Sets outline width to x.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Font:       Effect:
+   \fr       - Resets all font changes.
+   \fs[x]    - Changes font size to x.
+   \fn<x>    - Changes font name to x.
+   \fb       - Toggles font boldness.
+   \fi       - Toggles font italic.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Actor:      Effect:
+   \af[x]    - Shows face of actor x. *Note
+   \ac[x]    - Writes out actor's class name.
+   \an[x]    - Writes out actor's nickname.
+
+             *Note: Works for message window only.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Party:      Effect:
+   \pf[x]    - Shows face of party member x. *Note
+   \pc[x]    - Writes out party member x's class name.
+   \pn[x]    - Writes out party member x's nickname.
+
+             *Note: Works for message window only.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Names:      Effect:
+   \nc[x]    - Writes out class x's name.
+   \ni[x]    - Writes out item x's name.
+   \nw[x]    - Writes out weapon x's name.
+   \na[x]    - Writes out armour x's name.
+   \ns[x]    - Writes out skill x's name.
+   \nt[x]    - Writes out state x's name.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Icon Names: Effect:
+   \ii[x]    - Writes out item x's name including icon.
+   \iw[x]    - Writes out weapon x's name including icon.
+   \ia[x]    - Writes out armour x's name including icon.
+   \is[x]    - Writes out skill x's name including icon.
+   \it[x]    - Writes out state x's name including icon.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+And those are the text codes added with this script. Keep in mind that some
+of these text codes only work for the Message Window. Otherwise, they'll
+work for help descriptions, actor biographies, and others.
+
+============================================================================
+Plugin Commands
+============================================================================
+
+The following are some plugin commands you can use through the Event Editor
+to change various aspects about the Message system.
+
+Plugin Comand
+  MessageRows 6
+  - Changes the Message Rows displayed to 6. If you are using continuous
+  Show Text events, this will continue displaying the following lines's
+  texts until it hits the row limit. Anything after that is cut off until
+  the next message starts to avoid accidental overlap.
+
+  MessageWidth 400
+  - Changes the Message Window Width to 400 pixels. This will cut off any
+  words that are shown too far to the right so adjust accordingly!
+
+  EnableWordWrap
+  - Enables wordwrapping. If a word extends past the window size, it will
+  automatically move onto the next line. Keep in mind, you will need to use
+  \br to perform line breaks.
+
+  DisableWordWrap
+  - This disables wordwrapping. Line breaks will be automatic at points
+  where a new line is started in the editor.
+
+  EnableFastForward
+  - Enables Fast Forward key from working with messages.
+
+  DisableFastForward
+  - Disables Fast Forward key from working with messages.
