@@ -181,3 +181,169 @@ Plugin Comand
 
   DisableFastForward
   - Disables Fast Forward key from working with messages.
+
+   * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * LetterSound Effect:
+ * \lson          - Turns Letter Sounds on.
+ * \lsoff         - Turns Letter Sounds off.
+ * \lsn<filename> - Changes Letter Sound to play filename. This is case sensitive. Do not include the file extension.
+ * \lsv[x]        - Sets the volume of the Letter Sound to x.
+ * \lspi[x]       - Sets the pitch of the Letter Sound to x.
+ * \lspiv[x]      - Sets the pitch variance of the Letter Sound to x.
+ * \lspa[x]       - Sets the pan of the Letter Sound to x.
+ * \lspav[x]      - Sets the pan variance of the Letter Sound to x.
+ * \lsi[x]        - Sets the interval the Letter Sounds play to x.
+ *
+ * *Note: Works for message window only.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * NameWindow: Effect:
+ * \n<x>   - Creates a name box with x string. Left side.
+ * \nc<x>  - Creates a name box with x string. Centered.
+ * \nr<x>  - Creates a name box with x string. Right side.
+ *
+ * \nd<x>  - Creates a dimmed name box with x string. Left side.
+ * \ndc<x> - Creates a dimmed name box with x string. Centered.
+ * \ndr<x> - Creates a dimmed name box with x string. Right side.
+ *
+ * \nt<x>  - Creates a transparent name box with x string. Left side.
+ * \ntc<x> - Creates a transparent name box with x string. Centered.
+ * \ntr<x> - Creates a transparent name box with x string. Right side.
+ *
+ * *Note: Works for message window only.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * 
+ * MessagePosition Effect:
+ * \msgposx[x]    - Sets the X position of the Message Window to x.
+ * \msgposx[auto] - Sets the X position of the Message Window to default.
+ *
+ * \msgposy[x]    - Sets the Y position of the Message Window to x.
+ * \msgposy[auto] - Sets the Y position of the Message Window to default.
+ *
+ * \msgevent[x]   - Map Field Only! Positions the X and Y position of the Message Window relative to the event x's position. If you use 0, the window will be placed relative to the player's position on the map.
+ *
+ * \msgactor[x]   - Requires Battle Engine Core. Battle Only! Puts the message over actor x's head if actor is in the party. Otherwise, the message will appear in normal location.
+ *
+ * \msgparty[x]   - Requires Battle Engine Core. Battle Only! Puts the message over party member x's head if member is present. Otherwise, the message will appear in normal location.
+ *
+ * \msgenemy[x]   - Requires Battle Engine Core. Battle Only! Puts the message over enemy member x's head if member is present. Otherwise, the message will appear in normal location.
+ *
+ * \msgwidth[x]    - Sets the width of the Message Window to x.
+ * \msgwidth[auto] - Sets the width of the Message Window to fit the text.
+ *
+ * Do not use the auto function with Word Wrap.
+ *
+ * \msgrows[x]     - Sets the rows of the Message Window to x.
+ * \msgrows[auto]  - Sets the rows of the Message Window to text. Do not use the auto function with Word Wrap.
+ *
+ * \auto           - Sets the width and rows of the Message window to fit the current message window. Do not use this with Word Wrap.
+ *
+ * \autoevent[x]   - Map Field Only! Sets the width and rows of the Message window to fit the current message window and positions it relative to event x. If you use 0, the window will be placed relative to the player's position on the map. Do not use this with Word Wrap.
+ *
+ * \autoactor[x]   - Requires Battle Engine Core. Battle Only! Sets the width and rows of the message window to fit the current message window and puts the message over actor x's head if actor is in the party. Otherwise, the message will appear in normal location. Do not use this with Word Wrap.
+ *
+ * \autoparty[x]   - Requires Battle Engine Core. Battle Only! Sets the width and rows of the message window to fit the current message window and puts the message over party member x's head if member is present. Otherwise, the message will appear in normal location. Do not use this with Word Wrap.
+ *
+ * \autoenemy[x]   - Requires Battle Engine Core. Battle Only! Sets the width and rows of the message window to fit the current message window and puts the message over enemy member x's head if member is present. Otherwise, the message will appear in normal location. Do not use this with Word Wrap.
+ *
+ * \msgreset       - Resets all of the positioning settings to default.
+ *
+ * * Note: This setting change will remain for just the current message. Going to the next message will reset this setting back to whatever the default setting is in the plugin parameters for the Message Core. If you change the amount of rows past 4, it will not acquire the messages following. You will need to use the 'MessageRows x' plugin command to accomplish that. These notetags work for the message window only.
+ *
+ * Do not use the [auto] width and row functions with Word Wrap. Word wrap will cause them to behave erratically.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * FaceIndex Effect:
+ * \faceindex[x]   - Changes the face index of the currently used face graphic to index x at the start of the message.
+ *
+ * *Note: Works for message window only.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * DigitGroup Effect:
+ * \dg[x]       - Groups the number value x with commas. 12345 becomes 12,345.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * HexColor Effect:
+ * \hc[rrggbb]  - Changes the text color to a hex color code using red, green, blue format. For example, pure red is \hc[ff0000].
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * PlayTime Effect:
+ * \playtime    - Displays the current playtime of the player.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
+ * MapName Effect:
+ * \map[x]      - Displays the map name of Map ID x. If x is 0, it will display the name of the map the player is currently on.
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ — Letter Sounds —
+
+EnableLetterSound
+DisableLetterSound
+– These commands will enable or disable the letter sounds respectively.
+
+LetterSoundName Cursor2
+– This will replace the current letter sound with the written filename. The filename is case sensitive. Do not use the file extension.
+
+LetterSoundVolume 100
+– This will change the letter sound volume to 100.
+
+LetterSoundPitch 125
+– This will change the letter sound pitch to 125.
+
+LetterSoundPitchVariance 10
+– This will cause the letter sound’s pitch to fluctuate between -10 & 10.
+
+LetterSoundPan 0
+– This will change the letter sound’s pan to 0.
+
+LetterSoundPanVariance 10
+– This will cause the letter sound’s pan to fluctuate between -10 and 10.
+
+LetterSoundInterval 2
+– This will change the interval at which the letter sounds are played to 2 letters. Change it to 0 to play on every letter written out.
+
+LetterSoundReset
+– This will reset the letter sounds to their default settings.
+
+— Choice Settings —
+
+ChoiceRowMax 4
+– This will set the maximum amount of visible choices to 4.
+
+— Message Window Positions —
+
+MessageRows 6
+– Changes the Message Rows displayed to 6. If you are using continuous Show Text events, this will continue displaying the following lines’s texts until it hits the row limit. Anything after that is cut off until the next message starts to avoid accidental overlap.
+
+MessageWidth 400
+– Changes the Message Window Width to 400 pixels. This will cut off any words that are shown too far to the right so adjust accordingly!
+
+MessagePositionX 300
+– Sets the Message Window’s X Position to 300. This position will be* relative to its horizontal anchor point.
+
+MessagePositionY 400
+– Sets the Message Window’s Y Position to 400. This position will be relative to its vertical anchor point.
+
+MessagePositionXAuto
+– Sets the Message Window’s X Position to be automatically fitted and not set relative to its vertical anchor point.
+
+MessagePositionYAuto
+– Sets the Message Window’s Y Position to be automatically fitted and not set relative to its vertical anchor point.
+
+MessageAnchorX left
+– Sets the Message Window’s x anchor to ‘left’, ‘center’, or ‘right’ if you are using specified coordinates.
+
+MessageAnchorY bottom
+– Sets the Message Window’s y anchor to ‘left’, ‘center’, or ‘right’ if you are using specified coordinates.
+
+MessagePositionReset
+– Resets both the Message Window’s X and Y Positions to its automatic positions and not adjusted to its anchor points. The Message Width and the Message Rows.
