@@ -1,4 +1,0 @@
-/*
- * @plugindesc ------------------------
- * @author All-KAPS
- */
