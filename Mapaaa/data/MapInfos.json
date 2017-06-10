@@ -5,7 +5,7 @@ null,
 {"id":3,"expanded":true,"name":"Ruta 10","order":6,"parentId":0,"scrollX":640.8,"scrollY":714},
 {"id":4,"expanded":true,"name":"Ruta 11","order":7,"parentId":0,"scrollX":640.8,"scrollY":723.6},
 {"id":5,"expanded":true,"name":"Bosque_1","order":8,"parentId":0,"scrollX":1602,"scrollY":624},
-{"id":6,"expanded":true,"name":"Pueblo","order":11,"parentId":0,"scrollX":640.8,"scrollY":716.4},
+{"id":6,"expanded":true,"name":"Pueblo","order":11,"parentId":0,"scrollX":991.1999999999999,"scrollY":723.6},
 {"id":7,"expanded":true,"name":"INN","order":12,"parentId":6,"scrollX":650.4,"scrollY":390},
 {"id":8,"expanded":false,"name":"Armas","order":13,"parentId":6,"scrollX":1626,"scrollY":975},
 {"id":9,"expanded":false,"name":"Objetos","order":14,"parentId":6,"scrollX":1626,"scrollY":975},
@@ -17,5 +17,5 @@ null,
 {"id":15,"expanded":false,"name":"Intro-1","order":2,"parentId":14,"scrollX":640.8,"scrollY":411.59999999999997},
 {"id":16,"expanded":true,"name":"Bosque_1-Event","order":9,"parentId":5,"scrollX":1602,"scrollY":1089.6},
 {"id":17,"expanded":false,"name":"CasaVid.","order":18,"parentId":12,"scrollX":1626,"scrollY":975},
-{"id":18,"expanded":false,"name":"Bosque_1_1","order":10,"parentId":5,"scrollX":1279.2,"scrollY":1059.6}
+{"id":18,"expanded":false,"name":"Bosque_1_1","order":10,"parentId":5,"scrollX":1260,"scrollY":1040.3999999999999}
 ]
