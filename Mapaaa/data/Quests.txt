@@ -1,0 +1,33 @@
+Text that appears outside of the <quest></quest> tags will not display anywhere and can be used for notes if required.
+
+// <quest id:Name of Quest|difficulty|catId>
+// OBJECTIVES separated by commas (leave this blank to not use objectives for a quest)
+// RESOLUTIONS separated by commas use | for line breaks (leave this blank if not using resolutions for a quest)
+// quest description
+// quest description
+// quest description
+// </quest>
+
+<quest 1:Encuentra al abuelo.|1|0>
+Encontrar al abuelo
+Vaya... Eso no era lo que esperabas...
+Ves hacia el pueblo a buscar al abuelo.
+Seguro que ha ido a comprar medicinas.
+</quest>
+
+
+<quest 2:¡Un monstruo!|1|0>
+Encontrar un arma,Equipar el arma,Matar al monstruo
+¡Ahora ya puedes pasar!
+Hay un monstruo en medio del camino...
+Necesitarás alguna arma para derrotarlo.
+A lo mejor hay algo en la zona de entrenamiento.
+</quest>
+
+<quest 3:¡Un monstruo!|1|0>
+Encontrar un arma,Equipar el arma,Matar al monstruo
+¡Ahora ya puedes pasar!
+Hay un monstruo en medio del camino...
+Necesitarás alguna arma para derrotarlo.
+A lo mejor hay algo en la zona de entrenamiento.
+</quest>
