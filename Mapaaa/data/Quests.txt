@@ -24,10 +24,30 @@ Necesitarás alguna arma para derrotarlo.
 A lo mejor hay algo en la zona de entrenamiento.
 </quest>
 
-<quest 3:¡Un monstruo!|1|0>
-Encontrar un arma,Equipar el arma,Matar al monstruo
-¡Ahora ya puedes pasar!
-Hay un monstruo en medio del camino...
-Necesitarás alguna arma para derrotarlo.
-A lo mejor hay algo en la zona de entrenamiento.
+<quest 3:El abuelo te necesita.|1|0>
+Ir a ver al abuelo a la posada de Inn
+
+Los pueblerinos se han llevado a
+tu abuelo. Deberás ir a la posada
+para ver cómo está.
+</quest>
+
+<quest 4:¡A por el equipamiento!|2|0>
+Conseguir \i[96]armas,Comprar un \i[128]escudo,Comprar \i[176]Poción x5
+
+Necesitamos armas, armadura y pociones para 
+continuar con la aventura. 
+Cuando estemos listos, iremos a la Ruta 12.
+</quest>
+
+<quest 5:Manzanas para Myra|3|1>
+Conseguir \i[265]\c[21]10 manzanas\c[0],Llevarselas a Myra.
+Ahora Myra podrá hacer ese pastel.
+Myra necesita \i[265]\c[21]10 manzanas 
+para hacer un pastel. Si se las llevamos
+nos dará una recompensa.
+</quest>
+
+<quest 6:|1|0>
+
 </quest>
